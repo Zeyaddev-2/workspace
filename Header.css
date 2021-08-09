@@ -1,0 +1,34 @@
+.header__opt2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+  flex-wrap: nowrap;
+  min-width: 75px;
+  padding-left: 8px;
+  padding-right: 3px;
+  transition: transform 450ms;
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition: transform 450ms;
+  justify-content: space-evenly;
+}
+
+.header__opt2:hover {
+  transform: scale(1.10);
+}
+
+.header__cont {
+  display: flex;
+  padding-top: 15px;
+  justify-content: space-evenly;
+  font-size: 25px;
+  background-color: #131921;
+  padding-bottom: 20px;
+}
